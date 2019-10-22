@@ -10,7 +10,7 @@
 
 <h2>Spring MVC Demo App - Home Page</h2>
 <hr>
-<a href="helloWorldForm">Go to HelloWorld Form</a>
+<a href="hello/helloWorldForm">Go to HelloWorld Form</a>
 
 </body>
 </html>
