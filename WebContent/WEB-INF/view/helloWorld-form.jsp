@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="helloWorld">
+<form action="helloWorldVerion2">
 	<input type="text" name="studentName" />
 	<input type="submit">
 </form>
