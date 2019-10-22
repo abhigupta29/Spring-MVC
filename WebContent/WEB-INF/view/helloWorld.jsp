@@ -8,9 +8,9 @@
 </head>
 <body>
 
-<h2>Spring MVC Demo App - Home Page</h2>
-<hr>
-<a href="helloWorldForm">Go to HelloWorld Form</a>
+<p>Hello to the world of Spring!</p>
+<br>
+<p>Student Name: ${param.studentName} </p>
 
 </body>
 </html>

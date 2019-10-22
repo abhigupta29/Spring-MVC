@@ -8,9 +8,10 @@
 </head>
 <body>
 
-<h2>Spring MVC Demo App - Home Page</h2>
-<hr>
-<a href="helloWorldForm">Go to HelloWorld Form</a>
+<form action="helloWorld">
+	<input type="text" name="studentName" />
+	<input type="submit">
+</form>
 
 </body>
 </html>
