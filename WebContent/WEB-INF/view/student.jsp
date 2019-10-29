@@ -6,9 +6,10 @@
 <meta charset="ISO-8859-1">
 <title>Student</title>
 </head>
-<body>
-	
+<body>	
 The student is confirmed: ${student.firstName} ${student.lastName}
+
+Country: ${student.country}
 	
 </body>
 </html>
