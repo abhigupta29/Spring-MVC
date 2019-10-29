@@ -14,6 +14,8 @@ public class Student {
 	
 	private HashMap<String,String> programmingLanguageList;
 	
+	private HashMap<String,String> operatingSystemsList;
+	
 	public Student() {
 		
 		countryList = new HashMap<>();
@@ -26,6 +28,15 @@ public class Student {
 		programmingLanguageList.put("Java","Java");
 		programmingLanguageList.put("JavaScript","JavaScript");
 		programmingLanguageList.put("CPP","C++");
+		
+		operatingSystemsList = new HashMap<>();
+		operatingSystemsList.put("Windows", "Windows");
+		operatingSystemsList.put("Linux", "Linux");
+		operatingSystemsList.put("Mac", "Mac");
+	}
+
+	public HashMap<String, String> getOperatingSystemsList() {
+		return operatingSystemsList;
 	}
 
 	public HashMap<String, String> getProgrammingLanguageList() {

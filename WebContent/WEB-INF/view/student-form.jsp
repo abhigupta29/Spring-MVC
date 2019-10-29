@@ -28,9 +28,7 @@
 	<br><br>
 	
 	Operating Systems:<br>
-		Windows<form:checkbox path="operatingSystems" value="Windows"/>
-		Linux<form:checkbox path="operatingSystems" value="Linux"/>
-		Mac<form:checkbox path="operatingSystems" value="Mac"/>
+		<form:checkboxes items="${student.operatingSystemsList}" path="operatingSystems"/>
 	<br><br>
 	
 	<input type="submit" value="submit" />
