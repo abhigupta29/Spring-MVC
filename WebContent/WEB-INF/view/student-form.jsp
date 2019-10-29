@@ -27,6 +27,12 @@
 		<form:radiobuttons path="programmingLanguage" items="${student.programmingLanguageList}" />
 	<br><br>
 	
+	Operating Systems:<br>
+		Windows<form:checkbox path="operatingSystems" value="Windows"/>
+		Linux<form:checkbox path="operatingSystems" value="Linux"/>
+		Mac<form:checkbox path="operatingSystems" value="Mac"/>
+	<br><br>
+	
 	<input type="submit" value="submit" />
 	
 </form:form>

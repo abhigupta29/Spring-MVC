@@ -8,6 +8,7 @@ public class Student {
 	private String lastName;
 	private String country;
 	private String programmingLanguage;
+	private String[] operatingSystems;
 	
 	private HashMap<String,String> countryList;
 	
@@ -65,6 +66,14 @@ public class Student {
 
 	public void setProgrammingLanguage(String programmingLanguage) {
 		this.programmingLanguage = programmingLanguage;
+	}
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
 	}
 	
 }
