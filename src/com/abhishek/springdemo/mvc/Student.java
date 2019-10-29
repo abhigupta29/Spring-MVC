@@ -1,13 +1,25 @@
 package com.abhishek.springdemo.mvc;
 
+import java.util.HashMap;
+
 public class Student {
 	
 	private String firstName;
 	private String lastName;
 	private String country;
+	private HashMap<String,String> countryList;
 	
 	public Student() {
 		
+		countryList = new HashMap<>();
+		countryList.put("IN","India");
+		countryList.put("BR","Brazil");
+		countryList.put("DE","Germany");
+		countryList.put("US","United States");
+	}
+
+	public HashMap<String, String> getCountryList() {
+		return countryList;
 	}
 
 	public String getFirstName() {
