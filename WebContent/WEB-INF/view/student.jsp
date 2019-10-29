@@ -7,9 +7,12 @@
 <title>Student</title>
 </head>
 <body>	
-The student is confirmed: ${student.firstName} ${student.lastName}
 
-Country: ${student.country}
+<p>The student is confirmed: ${student.firstName} ${student.lastName}</p>
+
+<p>Country: ${student.country}</p>
+
+<p>Programming Language: ${student.programmingLanguage}</p>
 	
 </body>
 </html>
