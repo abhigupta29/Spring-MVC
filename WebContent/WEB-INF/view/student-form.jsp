@@ -24,9 +24,7 @@
 	<br><br>	
 	
 	Favorite Programming Language:<br>
-	 Java <form:radiobutton path="programmingLanguage" value="Java"/>
-	 JavaScript <form:radiobutton path="programmingLanguage" value="JavaScript"/>
-	 C++ <form:radiobutton path="programmingLanguage" value="C++"/>
+		<form:radiobuttons path="programmingLanguage" items="${student.programmingLanguageList}" />
 	<br><br>
 	
 	<input type="submit" value="submit" />

@@ -11,6 +11,8 @@ public class Student {
 	
 	private HashMap<String,String> countryList;
 	
+	private HashMap<String,String> programmingLanguageList;
+	
 	public Student() {
 		
 		countryList = new HashMap<>();
@@ -18,6 +20,15 @@ public class Student {
 		countryList.put("BR","Brazil");
 		countryList.put("DE","Germany");
 		countryList.put("US","United States");
+		
+		programmingLanguageList = new HashMap<>();
+		programmingLanguageList.put("Java","Java");
+		programmingLanguageList.put("JavaScript","JavaScript");
+		programmingLanguageList.put("CPP","C++");
+	}
+
+	public HashMap<String, String> getProgrammingLanguageList() {
+		return programmingLanguageList;
 	}
 
 	public HashMap<String, String> getCountryList() {
