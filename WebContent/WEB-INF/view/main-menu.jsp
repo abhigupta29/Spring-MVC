@@ -13,6 +13,8 @@
 <a href="hello/showForm">Go to HelloWorld Form</a>
 <br><br>
 <a href="student/showForm">Go to Student Form</a>
+<br><br>
+<a href="customer/showForm">Go to Customer Form</a>
 
 </body>
 </html>
