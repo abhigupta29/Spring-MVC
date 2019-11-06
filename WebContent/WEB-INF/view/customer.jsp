@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Customer</title>
 </head>
 <body>
 	<p>The customer is confirmed: ${customer.firstName} ${customer.lastName}</p>
 	<p>Free Passes: ${customer.freePasses}</p>
+	<p>Postal Code: ${customer.postalCode}</p>
 </body>
 </html>
